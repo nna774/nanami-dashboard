@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="400.00" height="300.00" viewBox="0.00 0.00 400.00 300.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g font-family="Helvetica">
+    <g>
+      <text font-size="30" x="10" y="40">CO2:</text>
+      <text font-size="35" x="80" y="40">{{.Co2.PPM}}</text>
+      <text font-size="30" x="160" y="40">ppm</text>
+      <text font-size="30" x="230" y="40">got at: {{.Co2.GotAt}}</text>
+    </g>
+    <g stroke-linecap="round" stroke-width="3" stroke-opacity="1.00" stroke-linejoin="round" stroke="black" fill="none">
+      <path d="M 0,150 L400,150" />
+      <path d="M 200,150 L200,300" />
+    </g>
+    <g font-size="30">
+      <text x="10"  y="190">3</text>
+      <text x="210" y="190">5</text>
+    </g>
+    <g fill="none" stroke="black" stroke-width="3">
+      <g>
+        <circle cx="40" cy="250" r="25" fill="{{.Number0.Status0}}" />
+        <circle cx="100" cy="250" r="25" fill="{{.Number0.Status1}}" />
+        <circle cx="160" cy="250" r="25" fill="{{.Number0.Status2}}" />
+      </g>
+      <g>
+        <circle cx="240" cy="250" r="25" fill="{{.Number1.Status0}}" />
+        <circle cx="300" cy="250" r="25" fill="{{.Number1.Status1}}" />
+        <circle cx="360" cy="250" r="25" fill="{{.Number1.Status2}}" />
+      </g>
+    </g>
+    <g>
+      <text font-size="25" x="40" y="190" stroke-width="1">got at: 20:23</text>
+    </g>
+  </g>
+</svg>
